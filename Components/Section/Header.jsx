@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='fixed left-0 right-0 max-w-6xl p-5 m-auto bg-white top-8 '>
+    <div className='sticky top-0 max-w-6xl p-5 m-auto bg-white'>
         <div className='flex justify-between max-w-5xl px-12 py-2 m-auto'>
             <div>
                 <img className='h-11' src='../../logo.svg'/>
