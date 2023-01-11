@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
                     <img className='h-4' src='../../chevron-down.svg'/>
                 </div>
                 <img className='h-8' src='../../search.svg'/>
-                <img className='h-8' src='../../menu.svg'/>
+              <Link href="Home"><img className='h-8' src='../../menu.svg'/> </Link> 
                
             </div>
             
