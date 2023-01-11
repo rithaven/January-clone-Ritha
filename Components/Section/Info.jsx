@@ -31,7 +31,7 @@ function Info() {
                                 </button>
                                     {e}
                                 </li>;
-                                
+ 
                     })
                         }
 
@@ -40,7 +40,7 @@ function Info() {
             </div>
             <div className='p-8'>
                 <div className='max-w-4xl m-auto'>
-                <h2 className='text-2xl font-bold'>Contact</h2>
+                <h2 className='mb-4 text-2xl font-bold'>Contact</h2>
                 <div className='grid grid-cols-3 gap-6'>
                     <div className='p-5 border-2 border-current'>
                         <img className='p-4 rounded-full' src="https://www.beschaeftigte.uni-stuttgart.de/img-beschaeftigte/iz_mitarbeiter/Dezernat-Internationales-IZ.jpg?__scale=w:150,h:150,cx:0,cy:0,cw:2000,ch:2000" alt="" />
@@ -61,8 +61,6 @@ function Info() {
                         <img className='h-6 mt-1' src="../../info.svg" alt="" />
                         <p className='text-sm'> <span className='underline'> Office hours (online)</span> Office hours (online):Mon & Wed 10 a.m. to noon; Office hours (on site): Mon & Wed, 2 p.m. to 4 p.m. , Tue & Thur, 10 a.m. to noon</p>
                        </div>
-                       
-                       
                     </div>
                     <div className='p-5 border-2 border-current'>
                         <img className='p-4 rounded-full' src="https://www.uni-stuttgart.de/studium/beratung/img-fachstudienberater/zsb_employee.jpg?__scale=w:150,h:150,cx:0,cy:0,cw:620,ch:620" alt="" />
@@ -75,30 +73,20 @@ function Info() {
                         <img className='h-6 mt-1' src="../../phone.svg" alt="" />
                         <p className='text-gray-500 underline'>	+49 711 685 82133</p>
                        </div>
-                      
-                       
-                       
                     </div>
                     <div className='px-2 py-2 border-2 border-current'>
                          <button class="w-32 h-32 rounded-full  bg-[#e8e8e8] m-10">
                          <img className='h-8 ml-10' src="../../map-marker.svg" alt="" />
                          </button>
-                       
                        <h2 className='px-4 mt-8 text-2xl font-semibold'>Student Service and Examination Office</h2>
                        <p className='px-4 text-gray-400'>Pfaffenwaldring 5 c, 70569 Stuttgart, House of students</p>
                        <div className='flex gap-1 mt-5'>
                         <img className='h-6 mt-1' src="../../profile.svg" alt="" />
                         <p className='text-gray-500 underline '>	Further information</p>
                        </div>
-                       
-                      
-                       
-                       
                     </div>
-                    
                 </div>
                 </div>
-                
             </div>
         </div>
     )

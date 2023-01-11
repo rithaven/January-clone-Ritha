@@ -6,6 +6,7 @@ import Hero from '../Components/Section/Hero'
 import About from '../Components/Section/About'
 import News from '../Components/Section/News'
 import Info from '../Components/Section/Info'
+import Footer from '../Components/Layout/Footer'
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
      <About />
      <News />
      <Info />
+     <Footer />
     </>
   )
 }
