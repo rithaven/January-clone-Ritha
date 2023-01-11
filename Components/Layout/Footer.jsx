@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='max-w-6xl m-auto bg-[#333333] p-8'>
             <div className='flex justify-between max-w-5xl p-10 m-auto leading-none flex-cols-2 '>
                 <div className=''>
-                    <img className='h-10' src="../../logoo.svg" alt="" />
+                    <img className='h-12' src="../../logoo.svg" alt="" />
                 </div>
                 <div className='flex gap-4'>
                     
