@@ -7,6 +7,7 @@ import About from '../Components/Section/About'
 import News from '../Components/Section/News'
 import Info from '../Components/Section/Info'
 import Footer from '../Components/Layout/Footer'
+import Section1 from '../Components/Section/Section1'
 
 
 
@@ -23,7 +24,7 @@ export default function Home() {
      <Navbar />
      <Header />
      <Hero />
-     <About />
+     <Section1 />
      <News />
      <Info />
      <Footer />

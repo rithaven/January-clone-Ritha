@@ -41,43 +41,107 @@ const Footer = () => {
 
             </div>
 
-            <div className='grid max-w-5xl grid-cols-4 p-10 m-auto text-white'>
-                <div className='grid gap-2'>
-                    <h2 className='text-3xl '>Audience</h2>
-                    <p className='underline'>Students</p>
-                    <p className='underline'>Employees</p>
-                    <p className='underline'>Alumni and supporters</p>
-                    <p className='underline'>Industry</p>
+            <div className='grid max-w-5xl grid-cols-4 p-10 m-auto text-white sm:grid-cols-1'>
+                <div className='text-white'>
+                   {
+                    [
+                        "Audience"
+                    ].map((e,index) =>{
+                        return(
+                            <h2 className='mb-4 text-3xl' key={index}>{e}</h2>
+                        )
+                    })
+                   }
+                    {
+                    [
+                        "Students",
+                        "Employees",
+                        "Alumni and supporters",
+                        "Industry",
+                    ].map((e,index) =>{
+                        return(
+                            <p className='underline' key={index}>{e}</p>
+                        )
+                    })
+                   }
+                </div>
+                <div className='text-white'>
+
+                {
+                    [
+                        "Formalities"
+                    ].map((e,index) =>{
+                        return(
+                            <h2 className='mb-4 text-3xl' key={index}>{e}</h2>
+                        )
+                    })
+                   }
+                    {
+                    [
+                        "Legal notice",
+                        "Privacy notic",
+                        "Accessibility",
+                        "Certificates",
+                    ].map((e,index) =>{
+                        return(
+                            <p className='underline' key={index}>{e}</p>
+                        )
+                    })
+                   }
+                  
+                </div>
+                <div className='text-white'>
+
+                {
+                    [
+                        "Services"
+                    ].map((e,index) =>{
+                        return(
+                            <h2 className='mb-4 text-3xl' key={index}>{e}</h2>
+                        )
+                    })
+                   }
+                    {
+                    [
+                        "Contact",
+                        "Press",
+                        "Jobs",
+                        "Apply for Doctorate or",
+                        "Postdoc",
+                        "Un-shop"
+                    ].map((e,index) =>{
+                        return(
+                            <p className='underline' key={index}>{e}</p>
+                        )
+                    })
+                   }
                     
                     
                 </div>
-                <div className='grid gap-2'>
-                    <h2 className='text-3xl'>Formalities</h2>
-                    <p className='underline'>Legal notice</p>
-                    <p className='underline'>Privacy notice</p>
-                    <p className='underline'>Accessibility</p>
-                    <p className='underline'>Certificates</p>
-                    
-                    
-                </div>
-                <div className='grid gap-2'>
-                    <h2 className='mb-2 text-3xl'>Services</h2>
-                    <p className='underline'>Contact</p>
-                    <p className='underline'>Press</p>
-                    <p className='underline'>Jobs</p>
-                    <p className='underline'>Apply for Doctorate or</p>
-                    <p className='underline'>Postdoc</p>
-                    <p className='underline'>Un-shop</p>
-                    
-                    
-                </div>
-                <div className='grid'>
-                    <h2 className='text-3xl '>Organization</h2>
-                    <p className='underline'>Faculties and Institutes</p>
-                    <p className='underline'>Facilities</p>
-                    <p className='underline'>Central Administration</p>
-                    
-                    
+                <div className='text-white'>
+
+                    {
+                    [
+                        "Organization"
+                    ].map((e,index) =>{
+                        return(
+                            <h2 className='mb-4 text-3xl' key={index}>{e}</h2>
+                        )
+                    })
+                   }
+                    {
+                    [
+                        "Faculties and Institutes",
+                        "Facilities",
+                        "Central Administration",
+                       
+                    ].map((e,index) =>{
+                        return(
+                            <p className='underline' key={index}>{e}</p>
+                        )
+                    })
+                   }
+                   
                     
                 </div>
                 

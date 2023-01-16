@@ -7,7 +7,7 @@ const News = () => {
         <h2 className="pt-10 pb-6 text-2xl font-bold">
           News and events for students
         </h2>
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid grid-cols-3 gap-6 sm:grid-cols-1">
           <div className="text-black ">
             <div className="mb-6 bg-white">
               <h3 className="p-2 text-2xl font-bold">
