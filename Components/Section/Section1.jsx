@@ -16,7 +16,7 @@ const Section1 = () => {
           BEGRIFF SUCHEN
         </button>
       </div>
-      <div className='grid max-w-4xl grid-cols-3 m-auto sm:grid-cols-1'>
+      <div className='grid max-w-5xl grid-cols-3 m-auto sm:grid-cols-1'>
 
         {
           [

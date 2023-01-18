@@ -1,13 +1,28 @@
 import React from "react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState,  useEffect } from "react";
 
 function Header() {
   const [show, setShow] = useState(false);
-
+  const [animateHeader, setAnimateHeader] = useState(false);
+  useEffect(() => {
+      const listener = () => {
+        if (window.scrollY > 140) {
+          setAnimateHeader(true);
+        } else setAnimateHeader(false);
+      };
+      window.addEventListener("scroll", listener);
+      return () => {
+        window.removeEventListener("scroll", listener);
+      };
+    }, []);
   return (
-    <div className="sticky top-0 z-10 max-w-6xl m-auto">
-      <div className="flex justify-between flex-shrink-0 px-20 py-10 bg-white sm:px-3 sm:py-4">
+    <div className={`sticky top-0  z-10 trasition ease-in-out duration-500 ${
+      animateHeader && "shadow-xl"
+    } max-w-6xl m-auto`}>
+      <div className={`flex max-w-screen-xl py-10 ${
+            animateHeader && "py-5"
+          } mx-auto items-center  trasition ease-in-out duration-500 flex justify-between flex-shrink-0 px-20 py-10 bg-white sm:px-3 sm:py-4 header`}>
         <div className="w-[297px] h-[60px]">
           <div className="sm:w-[222px] sm:h-[45px]">
             <img src="../../logo.svg" />

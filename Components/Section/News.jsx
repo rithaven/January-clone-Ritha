@@ -3,7 +3,7 @@ import React from "react";
 const News = () => {
   return (
     <div className="max-w-6xl m-auto bg-[#333333]">
-      <div className="max-w-4xl m-auto text-white ">
+      <div className="max-w-5xl m-auto text-white ">
         <h2 className="pt-10 pb-6 text-2xl font-bold">
           News and events for students
         </h2>

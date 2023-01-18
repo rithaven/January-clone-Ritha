@@ -5,7 +5,7 @@ function Info() {
         <div className='max-w-6xl pt-8 m-auto bg-white'>
 
             <div className='bg-[#004595] pb-10'>
-                <div className='max-w-4xl m-auto text-white'>
+                <div className='max-w-5xl m-auto text-white'>
                     <h2 className='py-8 text-2xl font-bold'>Information for students</h2>
                 </div>
                 <div className='max-w-4xl m-auto'>
@@ -13,7 +13,7 @@ function Info() {
 
                     <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
 
-                        <div className='text-white'>
+                        <div className='mb-4 text-white'>
                             {
                                 [
                                     {
@@ -31,7 +31,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -56,7 +56,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -156,7 +156,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@ function Info() {
                                                 </div>
                                             </div>
                                             <div className='gap-2'>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -190,7 +190,7 @@ function Info() {
                             }
                         </div>
 
-                        <div className='text-white '>
+                        <div className='mb-4 text-white'>
                             {
                                 [
                                     {
@@ -208,7 +208,7 @@ function Info() {
                                             </div>
                                            
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -233,7 +233,7 @@ function Info() {
                                             </div>
                                            
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -258,7 +258,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -283,7 +283,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -300,7 +300,7 @@ function Info() {
                                     }
                                 ].map((e, index) => {
                                     return (
-                                        <div className='flex gap-2'>
+                                        <div className='flex gap-2 mb-4'>
 
                                             <div>
                                                 <div className='w-32 h-32 mb-6 border rounded-full '>
@@ -309,7 +309,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -326,15 +326,15 @@ function Info() {
                                     }
                                 ].map((e, index) => {
                                     return (
-                                        <div className='flex gap-2'>
+                                        <div className='flex gap-2 mb-6'>
                                             <div>
                                                 <div className='w-32 h-32 border rounded-full '>
                                                     <img className='mt-14 ml-14' src={e.image} alt="" key={index} />
                                                 </div>
                                             </div>
 
-                                            <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                            <div className='gap-2'>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
@@ -359,7 +359,7 @@ function Info() {
                                             </div>
 
                                             <div className='gap-2 '>
-                                                <h2 className='text-3xl' key={index}>{e.title}</h2>
+                                                <h2 className='mb-4 text-3xl' key={index}>{e.title}</h2>
                                                 <p className='text-md'>{e.paragraph}</p>
                                             </div>
                                         </div>
